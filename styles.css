@@ -25,6 +25,28 @@ body {
 
 
 
+.about-section {
+    background-color: #003366;
+    padding: 50px 0;
+    border-radius: 8px;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+}
+
+.about-card {
+    background-color: #002a5e;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
 
 .product-card {
     background-color: #003366;
@@ -71,3 +93,25 @@ body {
 footer {
     background-color: #001f3f; 
 }
+.login-form {
+    background-color: #003366;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+
+.register-form {
+    background-color: #003366;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #00509e;
+}
+
+
+    

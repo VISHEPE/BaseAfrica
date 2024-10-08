@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - OnChain Bazaar</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #001f3f;
-            color: #ffffff;
-        }
-
-        .login-form {
-            background-color: #003366;
-            padding: 40px;
-            border-radius: 8px;
-            margin-top: 50px;
-        }
-
-        .btn-primary {
-            border: none;
-            background-color: #00509e;
-        }
-
-        .btn-primary:hover {
-            background-color: #002a5e;
-        }
-    </style>
-</head>
+<?php
+include("header.php");
+?>
 
 <body>
 
@@ -48,7 +20,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-block mt-4">Login</button>
                     </form>
-                    <p class="text-center mt-3">Don't have an account? <a href="reg.html" class="text-warning">Register</a></p>
+                    <p class="text-center mt-3">Don't have an account? <a href="reg.php" class="text-warning">Register</a></p>
                 </div>
             </div>
         </div>
@@ -68,6 +40,9 @@
             return true;
         }
     </script>
+    <?php
+include("footer.php");
+?>
 
 </body>
 
